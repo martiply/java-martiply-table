@@ -7,8 +7,7 @@ public class TableStore {
 	public static final String OWNER_ID = "ownerId";
 
 	public static final String NAME = "name";
-	public static final String LAT = "lat";
-	public static final String LNG = "lng";
+	public static final String GEO  = "geo";
 	public static final String ZIP = "zip";
 	public static final String ADDRESS = "address";
 	public static final String CITY = "city";
@@ -24,8 +23,7 @@ public class TableStore {
 	public static final String STORE_ID_F = TABLE_NAME + "." + STORE_ID;
 	public static final String OWNER_ID_F = TABLE_NAME + "." + OWNER_ID;
 	public static final String NAME_F = TABLE_NAME + "." + NAME;
-	public static final String LAT_F = TABLE_NAME + "." + LAT;
-	public static final String LNG_F = TABLE_NAME + "." + LNG;
+	public static final String GEO_F = TABLE_NAME + "." + GEO;
 	public static final String ZIP_F = TABLE_NAME + "." + ZIP;
 	public static final String ADDRESS_F = TABLE_NAME + "." + ADDRESS;
 	public static final String CITY_F = TABLE_NAME + "." + CITY;
