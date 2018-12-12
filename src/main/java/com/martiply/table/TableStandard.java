@@ -8,7 +8,6 @@ public class TableStandard {
 	public static final String OWNER_ID = TableOwner.OWNER_ID;
 	public static final String ID_CUSTOM = "idCustom";
 	public static final String GTIN = "gtin";	
-	public static final String ID_TYPE = "idType";
 	public static final String BRAND = "brand";
 	public static final String NAME = "name";		
 	public static final String CATEGORY = "category";
@@ -22,8 +21,7 @@ public class TableStandard {
 	public static final String ID_F = TABLE_NAME + "." + ID;
 	public static final String OWNER_ID_F = TABLE_NAME + "." + OWNER_ID;
 	public static final String ID_CUSTOM_F = TABLE_NAME + "." + ID_CUSTOM;
-	public static final String GTIN_F = TABLE_NAME + "." + GTIN;	
-	public static final String ID_TYPE_F = TABLE_NAME + "." + ID_TYPE;
+	public static final String GTIN_F = TABLE_NAME + "." + GTIN;
 	public static final String BRAND_F = TABLE_NAME + "." + BRAND;
 	public static final String NAME_F = TABLE_NAME + "." + NAME;		
 	public static final String CATEGORY_F = TABLE_NAME + "." + CATEGORY;
